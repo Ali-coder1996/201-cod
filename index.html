@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>201-cod</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 70px;
+            width: 1200px;
+            margin: auto;
+            height: 20px;
+
+        }
+        h1{
+            background-color: chocolate;
+            color: darkslateblue;
+        }
+        p{
+            text-align: center;
+            height: 40px;
+            font-size: 22px;
+        }
+        header img {
+            margin-right: auto;
+            width: 300px;
+            height: 200px;
+        }
+        main img {
+            height: 100px;
+            margin: auto;
+            margin-left: 50%;
+            
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        nav ul li a {
+            font-size: 21px;
+            font-weight: 500;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        nav ul li::after{
+            content: "";
+            height: 2px;
+            width: 0%;
+            background-color: red;
+            display: block;
+            margin: auto;
+            left: 0;
+            transition: .7s;
+
+        }
+        nav ul li a:hover {
+            color: red;
+        }
+        nav ul li:hover::after {
+
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/originals/49/49/87/494987af8492e78c2fc07880443c6f68.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">sell</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">price</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="https://img.pngio.com/pikachu-png-pikachu-without-white-background-transparent-png-pikachu-no-background-840_637.png" alt="">
+        <h1>Class 1 Lab</h1>
+        <p style="color: red; background-color: cadetblue;">let is started I curious about your name</p>
+        <p style="color: green; background-color: grey;">okay about your age</p>
+        <p style="color: midnightblue; background-color: black;">okay I curious about your favorite place</p>
+        <p style="color: chartreuse; background-color: violet;">Thired question about favorite place</p>
+    </main>
+    <footer style="text-align: center; background-color: black; font-size: 21px; color: #fff;">all rigth &copy; </footer>
+    <!-- <script>
+        let userName = prompt('let is started I curious about your name ')
+        alert(`it is nice name ${userName}`)
+        console.log('first question about his name')
+        let userAge = prompt('okay about your age ')
+        alert(`your age is  ${userAge}`)
+        console.log('second question about his Age')
+        let place = prompt('okay I curious about your favorite place ')
+        alert(`oooh I love this place ${place}`)
+        console.log('Thired question about favorite place')
+        let animle = prompt('last question about if you have to choice between to be monkey or lizard  ')
+        alert(`it is your choice to be ${animle} I know it is bad question `)
+        console.log('last question about what animle would you like to be')
+        alert(`you name is ${userName}, your age is ${userAge} , you favorite place is ${place} , you would like to be ${animle} I'm jokng with you`)
+    </script> -->
+</body>
+</html>
